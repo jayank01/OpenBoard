@@ -1,0 +1,150 @@
+.container {
+    display: flex;
+}
+.options{
+    height: 4rem;
+    width: 3.5rem;
+    background-color: lightblue;
+    position: absolute;
+    top: 1.25rem;
+    left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.toolbar {
+    border: 2px solid gray;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60vw;
+    margin: 0 auto;
+    margin-bottom: 2.5vh;
+    height: 80px;
+    background-color: lightyellow;
+} 
+.scale-tools{
+    animation-name: scale-tools;
+    animation-duration: 1s;
+}      
+@keyframes scale-tools {
+    0%{
+        transform: scale(0.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.tool-img {
+    height: 45px;
+}
+.tool {
+    height: 50px;
+}
+.fas {
+    font-size: 3rem;
+}
+.color-container{
+    border: 2px solid grey;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 180px;
+    background-color: lightgray;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.color {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.red {
+    border: 2px solid red;
+    background-color: lightpink;
+}
+.green {
+    border: 2px solid green;
+    background-color: lightgreen;
+}
+.blue {
+    border: 2px solid blue;
+    background-color: lightblue;
+}
+.size-box {
+    border: 3px solid black;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
+}
+.size1 {
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    background-color: gray;
+}
+.size2 {
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: gray;
+}
+.size3 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: gray;
+}
+.size4 {
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    background-color: gray;
+}
+.minimize {
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.close {
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.nav-bar {
+    height: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.sticky {
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    top: 15rem;
+    left: 10rem;
+}
+.textarea {
+    height: 85%;
+    width: 96%;
+    border: none;
+    border-top: 2px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    outline: none;
+    border: none;
+    resize: none;
+}
